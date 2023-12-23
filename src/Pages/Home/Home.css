@@ -12,6 +12,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 300;
   }
+  .content .settings span{
+    color:aquamarine;
+  }
   
   .banner {
     width: 55%;
@@ -42,3 +45,43 @@
     flex: 0.8;
     justify-content: space-evenly;
   }
+
+  .settings_select {
+    background-color: #d4b58f; /* Dark background */
+    color: #9a1414; /* White text color */
+    padding: 20px;
+  }
+  
+  .settings_select .MuiTextField-root {
+    background-color: rgba(209, 155, 155, 0.99); /* Slightly transparent background for fields */
+    border-color: rgba(255, 255, 255, 0.2); /* Lighter border color */
+    color: #fff;
+  }
+  
+  .settings_select .MuiOutlinedInput-root {
+    fieldset {
+      border-color: rgba(255, 255, 255, 0.2); /* Lighter border color for outlined fields */
+    }
+  }
+  
+  .settings_select .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.4); /* Slightly brighter border for focus */
+  }
+  
+  .settings_select .MuiButton-containedPrimary {
+    background-color: #007bff; /* Primary blue for button */
+    color: #fff;
+  }
+  
+  .settings_select .MuiButton-containedPrimary:hover {
+    background-color: #0069d9; /* Slightly darker hover for button */
+  }
+  
+  .settings_select .MuiErrorMessage-root {
+    color: #f44336; /* Red for error message */
+  }
+  .settings_select .banner img{
+    height: 500px;
+    width: 500px;
+  }
+  

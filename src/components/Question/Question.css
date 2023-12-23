@@ -46,6 +46,25 @@
     width: 100%;
     justify-content: space-around;
   }
+ 
+  .controls .MuiButton-containedSecondary {
+    background-color: #f05454; /* Bold red for emphasis */
+    color: #fff; /* White text for contrast */
+    border-radius: 5px; /* Softened corners */
+    font-weight: bold; /* Increased visual weight */
+    text-transform: uppercase; /* Stylistic choice */
+    letter-spacing: 1px; /* Slightly spread out letters */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    transition: all 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .controls .MuiButton-containedSecondary:hover {
+    background-color: #e04444; /* Slightly darker hover state */
+    cursor: pointer; /* Indicate interactivity */
+  }
+  
+  /* Adjust spacing within the controls div as needed */
+  
   
   .select {
     background-color: rgb(7, 207, 0);

@@ -25,14 +25,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div
-        className="app"
-        style={
-          {
-            // backgroundImage: 'url("/pexels-instawalli-176851.jpg")',
-          }
-        }
-      >
+      <div className="app">
         <Header />
         <Routes>
           <Route

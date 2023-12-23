@@ -19,3 +19,58 @@
     text-transform: uppercase;
     margin: 10px;
   }
+  .quiz {
+    background-color: #3E2C41; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    font-family: sans-serif; /* Consider font choice for readability */
+  }
+  
+  /* Welcome message */
+  .quiz .subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Quiz information */
+  .quiz .quizInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz .quizInfo span {
+    font-size: 1rem;
+  }
+  
+  /* Circular progress indicator */
+  .quiz .MuiCircularProgress-root {
+    stroke: #fff; /* White progress bar for visibility */
+  }
+  
+  /* Question component (adjust styles as needed) */
+  .quiz .Question {
+    background-color: #3E2C41; /* Slightly darker background for question */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional considerations for accessibility and visual appeal */
+  .quiz a {
+    color: #007bff; /* Primary blue for links */
+  }
+  
+  .quiz code {
+    background-color: #333; /* Darker background for code blocks */
+    padding: 2px;
+    border-radius: 3px;
+  }
+  
+  /* Consider using a subtle gradient for visual interest */
+  .quiz {
+    background-image: linear-gradient(to bottom, #3E2C41, #3E2C41);
+  }
+  

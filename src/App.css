@@ -20,8 +20,11 @@ a{
 }
 
 .app{
-  min-height: 98.5vh;
-  border: 0px solid #39445a93;
-  margin: 5px;
-  padding: 5px;
+  min-height: 100vh;
+  /* border: 0px solid #39445a93; */
+  margin: 0px;
+  padding: 0px;
+  background: black;
 }
+
+/* linear-gradient(to bottom, #191919, #3F2E3E); */
