@@ -83,7 +83,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
       </div>
 
       <img
-        src="/3d-techny-data-dashboard-with-charts-and-graphs.png"
+        src="/view-mysterious-cardboard-box.jpg"
         className="banner"
         alt="quiz img"
       />
